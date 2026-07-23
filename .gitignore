@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and derived data
+data/raw/*
+!data/raw/.gitkeep
+DDS_Benchmarks/
+results/models/*
+results/predictions/*
+!results/models/.gitkeep
+!results/predictions/.gitkeep
+
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+*.npz
+
+# Generated embeddings and logs
+*.log
+results/**/*.csv

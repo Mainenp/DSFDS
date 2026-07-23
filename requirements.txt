@@ -1,0 +1,13 @@
+# DSFDS core dependencies
+#
+# Python 3.10 is recommended.
+# For GPU use, install the PyTorch build matching your CUDA version first:
+# https://pytorch.org/get-started/locally/
+
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.10,<1.13
+scikit-learn>=1.2,<2.0
+torch>=2.0,<3.0
+gensim>=4.3,<5.0
+joblib>=1.2,<2.0
